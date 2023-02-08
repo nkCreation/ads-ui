@@ -25,7 +25,8 @@
     "test.watch": "stencil test --spec --e2e --watchAll",
     "generate": "stencil generate",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "chromatic --project-token=5ee6b4428510"
   },
   "dependencies": {
     "@stencil/core": "^3.0.0"
@@ -50,6 +51,7 @@
     "@types/node": "^16.18.11",
     "autoprefixer": "^10.4.13",
     "babel-loader": "^8.3.0",
+    "chromatic": "^6.17.0",
     "jest": "^27.5.1",
     "jest-cli": "^27.5.1",
     "puppeteer": "^19.5.2",
