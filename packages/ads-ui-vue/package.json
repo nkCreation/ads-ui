@@ -1,6 +1,6 @@
 {
   "name": "ads-ui-vue",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "Nicolas Leport <nicolas.leport@nkcreation.com>",
   "homepage": "",
@@ -20,7 +20,7 @@
     "tsc": "tsc -p ."
   },
   "dependencies": {
-    "ads-ui": "*"
+    "ads-ui": "^0.0.1"
   },
   "publishConfig": {
     "access": "public"
