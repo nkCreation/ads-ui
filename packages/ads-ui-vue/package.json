@@ -20,7 +20,7 @@
     "tsc": "tsc -p ."
   },
   "dependencies": {
-    "ads-ui": "^0.0.1"
+    "ads-ui": "*"
   },
   "publishConfig": {
     "access": "public"
