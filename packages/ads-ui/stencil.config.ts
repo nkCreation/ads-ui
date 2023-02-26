@@ -6,6 +6,9 @@ import { vueOutputTarget } from '@stencil/vue-output-target';
 import autoprefixer from 'autoprefixer';
 
 export const config: Config = {
+  extras: {
+    experimentalImportInjection: true,
+  },
   namespace: 'ads-ui',
   plugins: [
     sass(),
